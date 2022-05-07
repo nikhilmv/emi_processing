@@ -33,6 +33,11 @@ class HomeController extends Controller
         return view('home');
     }
 
+    /**
+     * To create new tables and get emi details.
+     * Author:nikhil
+     * @return \Illuminate\Http\Response
+     */
     public function processData(Request $request){
 
 
@@ -107,7 +112,11 @@ class HomeController extends Controller
 
     }
 
-
+/**
+ * To create List Loan details
+ * Author:nikhil
+ * @return \Illuminate\Http\Response
+ */
 public function loan_details()
 {
 
